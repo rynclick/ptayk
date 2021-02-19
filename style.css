@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #999898;
+}
+
+.swiper-container {
+    width: auto;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 150px;
+    height: auto;
+}
+
+div.caption {
+    padding: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px solid rgb(15, 119, 50);
+    font-weight: bold;
+}
+
+.swiper-slide img {
+    padding-top: 5px;
+    border-radius: 8px;
+    width: 150px;
+    height: auto;
+}
+
+#videobg {
+    position: fixed;
+    opacity: 0.3;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    transition: 1s opacity;
+}
+
+.logopta {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.btnsite {
+    background-color: #063f08;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 25px;
+}
+
+h2 {
+    letter-spacing: 25px;
+}
